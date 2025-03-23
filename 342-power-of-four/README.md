@@ -1,3 +1,15 @@
+<pre>
+Binary Representation Examples  
+Decimal	Binary		Power of 2?	Power of 4?  
+1	0001		✅ Yes		✅ Yes  
+2	0010		✅ Yes		❌ No  
+4	0100		✅ Yes		✅ Yes  
+8	1000		✅ Yes		❌ No  
+16	0001 0000	✅ Yes		✅ Yes  
+🔹 We need a way to check if the set bit is at an even index.  
+</pre>
+
+
 <h2><a href="https://leetcode.com/problems/power-of-four">Power of Four</a></h2> <img src='https://img.shields.io/badge/Difficulty-Easy-brightgreen' alt='Difficulty: Easy' /><hr><p>Given an integer <code>n</code>, return <em><code>true</code> if it is a power of four. Otherwise, return <code>false</code></em>.</p>
 
 <p>An integer <code>n</code> is a power of four, if there exists an integer <code>x</code> such that <code>n == 4<sup>x</sup></code>.</p>
